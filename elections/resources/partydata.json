@@ -6,8 +6,8 @@
             "shortened_name": "LAB",
             "bg_colour": "#e4003b",
             "fg_colour": "#ffffff",
-            "seats": 443,
-            "vote": 39.8
+            "seats": 430,
+            "vote": 39.6
         },
         {
             "internal_name": "Conservative",
@@ -15,8 +15,8 @@
             "shortened_name": "CON",
             "bg_colour": "#0087dc",
             "fg_colour": "#ffffff",
-            "seats": 105,
-            "vote": 20.5
+            "seats": 118,
+            "vote": 21.0
         },
         {
             "internal_name": "Liberal_Democrat",
@@ -25,7 +25,7 @@
             "bg_colour": "#faa61a",
             "fg_colour": "#111111",
             "seats": 62,
-            "vote": 11.9
+            "vote": 11.5
         },
         {
             "internal_name": "Scottish_National_Party",
@@ -52,7 +52,7 @@
             "bg_colour": "#008142",
             "fg_colour": "#ffffff",
             "seats": 3,
-            "vote": 0.7
+            "vote": 0.6
         },
         {
             "internal_name": "Green",
@@ -61,7 +61,7 @@
             "bg_colour": "#6ab023",
             "fg_colour": "#ffffff",
             "seats": 1,
-            "vote": 5.8
+            "vote": 5.9
         },
         {
             "internal_name": "Other",
