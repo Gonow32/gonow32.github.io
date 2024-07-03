@@ -1,0 +1,85 @@
+{
+    "parties": [
+        {
+            "internal_name": "Labour",
+            "readable_name": "Labour",
+            "shortened_name": "LAB",
+            "bg_colour": "#e4003b",
+            "fg_colour": "#ffffff",
+            "seats": 443,
+            "vote": 39.8
+        },
+        {
+            "internal_name": "Conservative",
+            "readable_name": "Conservative",
+            "shortened_name": "CON",
+            "bg_colour": "#0087dc",
+            "fg_colour": "#ffffff",
+            "seats": 105,
+            "vote": 20.5
+        },
+        {
+            "internal_name": "Liberal_Democrat",
+            "readable_name": "Liberal Democrats",
+            "shortened_name": "LDM",
+            "bg_colour": "#faa61a",
+            "fg_colour": "#111111",
+            "seats": 62,
+            "vote": 11.9
+        },
+        {
+            "internal_name": "Scottish_National_Party",
+            "readable_name": "Scottish National Party",
+            "shortened_name": "SNP",
+            "bg_colour": "#fdf38e",
+            "fg_colour": "#111111",
+            "seats": 12,
+            "vote": 2.9
+        },
+        {
+            "internal_name": "Reform_UK",
+            "readable_name": "Reform UK",
+            "shortened_name": "REF",
+            "bg_colour": "#12b6cf",
+            "fg_colour": "#111111",
+            "seats": 3,
+            "vote": 16.4
+        },
+        {
+            "internal_name": "Plaid_Cymru",
+            "readable_name": "Plaid Cymru",
+            "shortened_name": "PLC",
+            "bg_colour": "#008142",
+            "fg_colour": "#ffffff",
+            "seats": 3,
+            "vote": 0.7
+        },
+        {
+            "internal_name": "Green",
+            "readable_name": "Green",
+            "shortened_name": "GRN",
+            "bg_colour": "#6ab023",
+            "fg_colour": "#ffffff",
+            "seats": 1,
+            "vote": 5.8
+        },
+        {
+            "internal_name": "Other",
+            "readable_name": "Other",
+            "shortened_name": "OTH",
+            "bg_colour": "#cccccc",
+            "fg_colour": "#111111",
+            "seats": 2,
+            "vote": "n/a"
+        },
+        {
+            "internal_name": "Speaker",
+            "readable_name": "Speaker",
+            "shortened_name": "SPK",
+            "bg_colour": "#000000",
+            "fg_colour": "#ffffff",
+            "seats": 1,
+            "vote": "n/a"
+        }
+    ]
+}

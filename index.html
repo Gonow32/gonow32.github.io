@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>The Pub Electoral Forecast</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"></link>
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="title-container">
+                <img height="80px" src="images/pub.png"></img>
+                <div style="font-size: 40px; font-weight: bold">The Pub Electoral Forecast</div>
+            </div>
+            <div style="padding-bottom:10px;font-style:italic;display:flex;flex-direction:column;align-items:center;">
+                <div>Last updated on the 2nd July 2024.</div>
+                <div>Changes are with the Rallings & Thrasher notional boundaries for the 2019 general election.</div>
+            </div>
+            <div id="horizontal-map-pane">
+                <div id="tally-container"></div>
+                <svg id="map-container" width="600" height="800"></svg>
+            </div>
+            <div id="constituency-breakdown">
+                <div id="constituency-name"></div>
+                <div id="tab-container">
+                    <svg id="constituency-winner-tab">
+                        <rect id="const-current-winner" x="0" y="0" width="100%" height="100%" style="fill:#000000"></rect>
+                        <rect id="const-past-winner" x="100%" y="0" width="14px" height="100%" transform="translate(-14, 0)" style="fill:#ffffff"></rect>
+                        <text id="const-change" x="4" y="16" style="fill: #ffffff;"></text>
+                    </svg>
+                </div>
+                <div class="result-container" id="result-container-0">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-0"></rect>
+                    </svg>
+                    <div id="result-text-0"></div>
+                </div>
+                <div class="result-container" id="result-container-1">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-1"></rect>
+                    </svg>
+                    <div id="result-text-1"></div>
+                </div>
+                <div class="result-container" id="result-container-2">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-2"></rect>
+                    </svg>
+                    <div id="result-text-2"></div>
+                </div>
+                <div class="result-container" id="result-container-3">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-3"></rect>
+                    </svg>
+                    <div id="result-text-3"></div>
+                </div>
+                <div class="result-container" id="result-container-4">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-4"></rect>
+                    </svg>
+                    <div id="result-text-4"></div>
+                </div>
+                <div class="result-container" id="result-container-5">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-5"></rect>
+                    </svg>
+                    <div id="result-text-5"></div>
+                </div>
+                <div class="result-container" id="result-container-6">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-6"></rect>
+                    </svg>
+                    <div id="result-text-6"></div>
+                </div>
+                <div class="result-container" id="result-container-7">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-7"></rect>
+                    </svg>
+                    <div id="result-text-7"></div>
+                </div>
+                <div class="result-container" id="result-container-8">
+                    <svg class="result-tab">
+                        <rect class="result-tab-rect" id="result-tab-rect-8"></rect>
+                    </svg>
+                    <div id="result-text-8"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
