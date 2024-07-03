@@ -33,8 +33,6 @@ export const electionMap = (parent, parameters) => {
 
     mapGroup.call(mapZoom);
 
-    console.log(mapData.features);
-
     mapGroup.selectAll("path")
         .data(mapData.features)
         .join("path")
